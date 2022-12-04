@@ -7,8 +7,3 @@ Details: We decided to slightly switch gears from our original idea (Blindness o
 
 
 This is testing pull request.
-
-
-Test
-
-
