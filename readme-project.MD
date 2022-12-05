@@ -11,11 +11,15 @@ Details: We decided to slightly switch gears from our original idea (Blindness o
   We then looked through our docker PIDs using the command ps -aux which shows all the running processes in Linux, and decided to try ending the ray_ground_classifier to see if we could see a difference in the Autoware visualization (results shown below). After noting the changes, we decided to try and kill the velodyne_node process (the before and after of that are also shown below) 
    
    **Before ending ray_ground_classifier node**
-   
+  ![316264826_871624447298075_8367672944808437971_n](https://user-images.githubusercontent.com/119695872/205739005-180cfb42-fbfe-4dc8-9fec-f97e54244ba8.png)
+
    **After ending ray_ground_classifier node**
-   
+   ![312926590_1357254668436832_12122692911221967_n](https://user-images.githubusercontent.com/119695872/205738820-dbdfa401-6df6-4155-a967-907286611e42.png)
+
    
    **Before ending velodyne node**
-   
+   ![317867412_532061615458141_45985463458155543_n](https://user-images.githubusercontent.com/119695872/205739053-b3201f9a-4803-4320-b28c-607742ed5cea.png)
+
    **After ending velodyne node**
-   
+   ![315001809_522862043099571_2290337854804442192_n](https://user-images.githubusercontent.com/119695872/205738674-5e57fdb5-d230-4e2e-9d34-abd927bc0fbc.png)
+
